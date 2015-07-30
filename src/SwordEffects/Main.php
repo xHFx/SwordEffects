@@ -15,7 +15,7 @@ class Main extends PluginBase implements Listener{
 
 public function onEnable()
 {
-$this->getServer()->getLogger()->info(TextFormat::BLUE."[SE]Plugin Enabled!");
+$this->getServer()->getLogger()->info(TextFormat::BLUE."[SwordEffects]Plugin Enabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
 
 }
