@@ -1,0 +1,6 @@
+main: SwordEffects\Main
+api: [1.0.0]
+version: "1.0"
+name: SwordEffects
+author: SavionLegendZzz
+description: Use Swords That Give $victm A Negative Effect When Hit By $damager
