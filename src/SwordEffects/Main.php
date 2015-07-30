@@ -1,6 +1,6 @@
 <?php
 
-namespace SwordEffect;
+namespace SwordEffects;
 
 use pocketmine\Player;
 use pocketmine\Server;
