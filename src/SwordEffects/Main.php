@@ -23,8 +23,7 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
 public function onHurt(EntityDamageEvent $event){
 if($event instanceof EntityDamageByEntityEvent){
 if($event->getDamager()->getInventory()->getItemInHand()->getId() === 276){
-				$event->getEntity()->addEffect(Effect::getEffect(19)->setAmplifier(1)->setDuration(6000)->setVisible(false));
-    				$event->getEntity()->addEffect(Effect::getEffect(18)->setAmplifier(1)->setDuration(6000)->setVisible(false));
+				$event->getEntity()->addEffect(Effect::getEffect($this->getConfig()->get("DiamondSwordEffect"))->setAmplifier($this->getConfig()->get("DiamondSwordAmp"))->setDuration($this->getConfig()->get("DiamondSwordTime"))->setVisible(false));
     }
     }
     }
