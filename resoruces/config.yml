@@ -1,0 +1,10 @@
+###Config For SwordEffects###
+##By SavionLegendZzz##
+#DiamondSword
+DiamondSwordEffect: 19
+##Effect Of That The $victim Gets
+DiamondSwordTime: 400
+##How Long It Last In Ticks 
+##1 Second = 20 Ticks
+DiamondSwordAmp: 1
+##The Power Of The Effect
