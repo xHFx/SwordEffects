@@ -17,7 +17,7 @@ public function onEnable()
 {
 $this->getServer()->getLogger()->info(TextFormat::BLUE."[SwordEffects]Plugin Enabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
-
+@mkdir($this->getDataFolder());
 }
 
 public function onHurt(EntityDamageEvent $event){
