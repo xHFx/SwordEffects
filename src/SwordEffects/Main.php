@@ -20,7 +20,7 @@ if(!file_exists($this->getDataFolder() . "config.yml")) {
              file_put_contents($this->getDataFolder() . "config.yml",$this->getResource("config.yml"));
         }$this->getServer()->getLogger()->info(TextFormat::BLUE."[SwordEffects]Plugin Enabled!");
 $this->getServer()->getPluginManager()->registerEvents($this,$this);
-@mkdir($this->getDataFolder());
+
 }
 
 public function onHurt(EntityDamageEvent $event){
